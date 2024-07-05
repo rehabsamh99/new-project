@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    margin-left: 50px;
+}
+ul li a{
+   margin-left: 30px;
+}
+.navbar-brand{
+    margin-left: 75px;
+}
+.icons{
+    display: flex;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: large;
+}
+.icons a :hover {
+    cursor:pointer;
+  color: hotpink;
+}
+.card-img-overlay{
+    margin-top: 150px;
+    width: 30%;
+}
+.card-img-overlay h5 {
+font-size: xx-large;
+}
+.card-img-overlay button:hover{
+   cursor: pointer;
+   background-color: hotpink;
+   border-radius: 25%;
+}
+.about h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: hotpink;
+}
+.about h1 span {
+    color: black;
+}
+.about .card {
+    align-items: center;
+    text-align: center;
+    background-color:lightpink;
+}
+.about .card button:hover{
+    cursor: pointer;
+    background-color: hotpink;
+}
+.card-group{
+    margin-top: 30px;
+    text-align: center;
+}
+.card-group a{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+.card-group a:hover{
+    cursor: pointer;
+}
+.latest-Products h1 {
+text-align: center;
+margin-top: 30px;
+}
+.latest-Products span{
+     color: hotpink;
+}
+.latest-Products .card{
+    margin-left:10px;
+    margin-right: 10px;
+}
+.latest-Products p{
+    color: hotpink;
+    font-size: xx-large;
+}
+.contact h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contact span{
+    color: hotpink;
+}
+ .contact .mb-3 {
+  margin-left: 200px;
+}
+.p{
+    text-align: center;
+}
+.p:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:400px){
+   .card-img-overlay{
+    margin: -10px;
+    width: 100%;
+   }
+   .contact .mb-3 {
+    margin-left: 100px;
+   }
+}
+@media (max-width:300px){
+    .card-img-overlay{
+        margin-top: -20px;
+       
+       }
+       .card-img-overlay h1 {
+        font-size: xx-small;
+       }
+    .contact .mb-3 {
+        margin-left: 50px;
+    }
+    .latest-Products .card{
+        margin: 0px;
+    }
+}
+
